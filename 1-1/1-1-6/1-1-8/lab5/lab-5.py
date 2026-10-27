@@ -26,13 +26,15 @@ def main():
 
     # Draw the rectangle
     draw_line(t, 10, 10, 10 + WIDTH, 10)
-    draw_line(t, 10 + WIDTH, 10, 10 + WIDTH, 10 + HEIGHT)
-    draw_line(t, 10 + WIDTH, 10 + HEIGHT, 10, 10 + HEIGHT)
-    draw_line(t, 10, 10 + HEIGHT, 10, 10)
-
-    # Draw bottom-right corner
+    #draw_line(t, 10 + WIDTH, 10, 10 + WIDTH, 10 + HEIGHT)
     #draw_line(t, 10 + WIDTH, 10 + HEIGHT, 10, 10 + HEIGHT)
-    #draw_line(t, 10 + WIDTH, 10 + HEIGHT, 10 + WIDTH, 10 + HEIGHT)
+    #draw_line(t, 10, 10 + HEIGHT, 10, 10)
+
+
+    '''x1 
+    y1 
+    x2
+    y2 '''
 
     # Draw bottom-left corner
 
