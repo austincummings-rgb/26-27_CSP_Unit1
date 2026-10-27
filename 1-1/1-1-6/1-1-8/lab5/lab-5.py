@@ -25,14 +25,14 @@ def main():
     t.hideturtle()
 
     # Draw the rectangle
-    draw_line(t, 10, 10, 10 + WIDTH, 10)
-    #draw_line(t, 10 + WIDTH, 10, 10 + WIDTH, 10 + HEIGHT)
+    #draw_line(t, 10, 10, 10 + WIDTH, 10)
+    draw_line(t, 10 + WIDTH, 10, 10 + WIDTH, 10 + HEIGHT)
     #draw_line(t, 10 + WIDTH, 10 + HEIGHT, 10, 10 + HEIGHT)
     #draw_line(t, 10, 10 + HEIGHT, 10, 10)
 
 
-    '''x1 
-    y1 
+    '''x1 10
+    y1 = 10 
     x2
     y2 '''
 
