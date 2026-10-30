@@ -33,12 +33,13 @@ for s in turtle_shapes:
     tloc += 50
 
 # TODO: move turtles across and down screen, stopping for collisions
-
+speed = 10
 for step in range(50):
     for ht in horiz_turtles:
      for vt in vert_turtles:
-        ht.forward(10)
-        vt.forward(10)
+        ht.forward(speed)
+        vt.forward(speed)
+        speed += 2
         if abs(ht.xcor() - vt.xcor()) < 40:
             if abs(ht.ycor() - vt.ycor()) < 40:
                 horiz_turtles.remove(ht)
