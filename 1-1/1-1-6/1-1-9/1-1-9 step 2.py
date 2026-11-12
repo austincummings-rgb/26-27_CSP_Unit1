@@ -1,5 +1,7 @@
 import turtle
-import turtle as trtl
+
+
+
 '''
 ball_position = 10
 # Distance of the ball from the plate
@@ -19,7 +21,8 @@ for line in range(10):
     t.hideturtle()
 
     # Draw the rectangle
-    draw_line(t, 10, 10, 10 + WIDTH, 10)
+
+
 
 
 
