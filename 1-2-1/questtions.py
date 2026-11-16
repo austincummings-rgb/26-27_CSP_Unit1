@@ -23,6 +23,9 @@ spot.fillcolor(spot_color)
 def spot_clicked(x,y):
     print("clicked!")
 
+def change_position():
+
+
 #-----events----------------
 spot.onclick(spot_clicked)
 
