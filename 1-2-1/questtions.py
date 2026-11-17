@@ -10,6 +10,11 @@ spot_size = 2
 spot_shape = "circle"
 score = 0
 font_setup = ("Arial",20, "normal")
+font_setup = ("Arial", 20, "normal")
+timer = 30
+counter_interval = 1000  # 1000 represents 1 second
+timer_up = False
+
 
 #-----initialize turtle-----
 spot = trtl.Turtle()
@@ -21,12 +26,15 @@ score_writer = trtl.Turtle()
 score_writer.penup()
 score_writer.goto(200,200)
 
+
 #-----game functions--------
 def update_score():
     global score
     score += 1
     score_writer.clear()
     score_writer.write(score, font=font_setup)
+
+
 
 def change_position():
     new_xpos = rand.randint(-200, 200)
