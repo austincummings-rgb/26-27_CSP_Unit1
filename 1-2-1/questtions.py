@@ -2,6 +2,7 @@
 #-----import statements-----
 import turtle as trtl
 import random as rand
+import leaderboard as lb
 
 
 #-----game configuration----
@@ -15,6 +16,8 @@ counter_interval = 1000  # 1000 represents 1 second
 timer_up = False
 
 
+leaderboard_file_name = "a122_leaderboard.txt"
+player_name = input("What is your name? ")
 #-----initialize turtle-----
 spot = trtl.Turtle()
 spot.shape(spot_shape)
